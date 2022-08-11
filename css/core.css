@@ -1,0 +1,12 @@
+#backimage{
+    width:100%;
+    /*background-color: aqua;*/
+    height:400px;
+    background-image: url("../pics/keyboard.jpg");
+    background-size:auto;
+    background-position: bottom;
+   /* background-repeat: no-repeat;*/
+}
+body{
+    background-color: black;
+}
