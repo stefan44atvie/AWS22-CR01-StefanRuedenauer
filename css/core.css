@@ -1,11 +1,26 @@
+/* CSS-Style für den Hintergrund*/
 #backimage{
     width:100%;
     height:400px;
-    background-image: url("../pics/keyboard.jpg");
     background-size:auto;
     background-position: bottom;
-   /* background-repeat: no-repeat;*/
 }
+/* Allgemeine Einstellungen für den Body */
 body{
     background-color: black;
 }
+/* CSS-Styles für div-Boxen */
+#ground2{
+    height:250px;
+    background-color: dimgray;
+    background-position: bottom;
+    top:0%;
+    margin: 0px;
+
+}
+#footerstyle{
+    background-color: black;
+    margin-top: 0px;
+    height:100px;
+}
+
