@@ -1,24 +1,32 @@
-#footerstyle>p{
-    color:white;
-}p{
+/* Styling für den Standard-paragraph */
+p{
     padding-left: 5px;
     margin-top:0px;
 }
+/* Text Styling für den Footer-Bereich */
+#footerstyle>p{
+    color:white;
+}
+/* Styling für Text des mittleren Bereichs */
 #backmiddle>p{
     color:black;
    
 }
+/* Styling für den Text des oberen Bereichs mit Hintergrundbild */
 #backimage>p{
     color:white;
 }
+/* Styling für den Textbereich 'CodeFactory' */
 #codefactory_box{
     color:white;
     font-weight: bold;
 }
+/* Styling für den Bereich unter 'CodeFactory' */
 #codefac_underbox {
     color:white;
     font-weight: bold;
 }
+/* ExtraStyling für den Bereich unter 'CodeFactory' */
 #codefactory_box>p{
     padding-top:0px;
 }
