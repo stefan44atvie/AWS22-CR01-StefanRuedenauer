@@ -1,13 +1,24 @@
-p{
+#footerstyle>p{
+    color:white;
+}p{
     padding-left: 5px;
     margin-top:0px;
 }
-#footerstyle>p{
-    color:white;
-/*    margin-top:0px;*/
-}
-#ground2>p{
+#backmiddle>p{
     color:black;
-    /*padding-left: 5px;*/
-    /*margin-top:0px;*/
+   
+}
+#backimage>p{
+    color:white;
+}
+#codefactory_box{
+    color:white;
+    font-weight: bold;
+}
+#codefac_underbox {
+    color:white;
+    font-weight: bold;
+}
+#fronttext>p{
+    padding-top:0px;
 }

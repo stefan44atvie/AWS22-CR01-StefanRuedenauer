@@ -11,7 +11,7 @@ body{
     background-color: black;
 }
 /* CSS-Styles für div-Boxen */
-#ground2{
+#backmiddle{
     height:250px;
     background-color: dimgray;
     background-position: bottom;
@@ -23,5 +23,21 @@ body{
     background-color: black;
     margin-top: 0px;
     height:100px;
+}
+#codefactory_box{
+    position:relative;
+    margin-top:200px;
+    margin-left:150px;
+    width:auto;
+    height:auto;
+    /*background-color: aqua;*/
+}
+#codefac_underbox {
+    position:absolute;
+    margin-top:0px ;
+    margin-left: 150px;
+    width:auto;
+    height:auto;
+    /*background-color: aliceblue;*/
 }
 
