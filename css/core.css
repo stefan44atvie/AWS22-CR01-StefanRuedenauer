@@ -128,7 +128,17 @@ body{
     margin-left: 150px;
     width:200px;
     height:200px;
+    color:white;
     background-image: url(../pics/devices.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#codefac_logomiddle_frontend{
+    position:absolute;
+    margin-top:25px ;
+    margin-left: 150px;
+    height:200px;
+    color:white;
     background-size: contain;
     background-repeat: no-repeat;
 }

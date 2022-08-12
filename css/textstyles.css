@@ -21,6 +21,11 @@ p{
     color:white;
     font-weight: bold;
 }
+.frontend_text{
+    color:white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
 /* Styling für den Bereich unter 'CodeFactory' */
 #codefac_underbox {
     color:white;
