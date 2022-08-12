@@ -1,3 +1,10 @@
+/* Allgemeine Einstellungen für den Body */
+/* ======================================*/
+
+body{
+    background-color: black;
+}
+
 /* CSS-Style für den Hintergrund*/
 #backimage{
     width:100%;
@@ -5,19 +12,79 @@
     background-position:bottom; 
     background-image: url(../pics/keyboard.jpg);
 }
-/* Allgemeine Einstellungen für den Body */
-body{
-    background-color: black;
+
+.codefac_textboxes>div{
+    color: aliceblue;
+    font-size:15px;
+    margin-left:15px;
+
 }
+
+#textbox_a{
+    color:bisque;
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+.button {
+    background-color: #802421; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 15px;
+  }
+
 /* CSS-Styles für div-Boxen */
+/* ======================== */
 #backmiddle{
     height:250px;
     background-color: #1A1818;
     background-position: bottom;
     top:0%;
     margin: 0px;
-/*1A1818*/
 }
+
+
+/* Einstellungen HEADER-Bereich */
+/* ============================ */
+
+#logo_header{
+    background-color:aqua;
+    margin-top:0px;
+    width:100px;
+  }
+#search_bar{
+    background-color:antiquewhite;
+    width:900px;
+    height:50px;
+    margin-left:252px;
+    padding-left: 10px;
+  }
+.codefac_headerflex{
+    display: flex;
+    justify-content:space-between;  
+    color:white;
+    background-color: black;
+}
+.codefac_headerboxes{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    color:white;
+
+}
+
+
+  /*ENDE HEADER*/
+
+  /* Einstellungen Footer-Bereich */
+  /* ============================ */
+
 #footerstyle{
     background-color: black;
     margin-top: 0px;
@@ -25,6 +92,26 @@ body{
     /*align-content: center;*/
     
 }
+
+#logo_bottom {
+    margin-left: 50%;
+    margin-right: auto;
+    display: block;
+  }
+  #logo_bottom>p{
+    color:white;
+    text-align:left;
+  }
+  .allrights{
+    color:white;
+    font-style: italic;
+    font-size: smaller;
+  }
+
+  /* ENDE Footer-Bereich */
+
+/* Einstellungen für Flex-Boxen */
+
 #codefactory_box{
     position:relative;
     margin-top:160px;
@@ -81,78 +168,7 @@ body{
     text-align: center;
 
 }
-.codefac_textboxes>div{
-    color: aliceblue;
-    font-size:15px;
-    margin-left:15px;
 
-}
+/* Ende Flex-Boxes */
 
-#textbox_a{
-    color:bisque;
-    font-size:20px;
-    font-weight: bold;
-    margin-bottom: 0px;
-
-}
-
-.button {
-    background-color: #802421; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    border-radius: 15px;
-  }
-
-
-  #over img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  #logo_bottom {
-    margin-left: 50%;
-    margin-right: auto;
-    display: block;
-  }
-  #logo_bottom>p{
-    color:white;
-    text-align:left;
-  }
-  .allrights{
-    color:white;
-    font-style: italic;
-    font-size: smaller;
-  }
-  #logo_header{
-    background-color:aqua;
-    margin-top:0px;
-    width:100px;
-  }
-  #search_bar{
-    background-color:antiquewhite;
-    width:900px;
-    height:50px;
-    margin-left:252px;
-    padding-left: 10px;
-  }
-
-
-
-.codefac_headerflex{
-    display: flex;
-    justify-content:space-between;  
-    color:white;
-    background-color: black;
-}
-.codefac_headerboxes{
-    display: flex;
-    flex-direction:row;
-    text-align: center;
-    color:white;
-
-}
+  
