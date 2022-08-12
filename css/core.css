@@ -2,10 +2,8 @@
 #backimage{
     width:100%;
     height:400px;
-    /*background-size:auto;*/
     background-position:bottom; 
     background-image: url(../pics/keyboard.jpg);
-    /*object-fit:scale-down;*/
 }
 /* Allgemeine Einstellungen für den Body */
 body{
@@ -24,10 +22,12 @@ body{
     background-color: black;
     margin-top: 0px;
     height:100px;
+    /*align-content: center;*/
+    
 }
 #codefactory_box{
     position:relative;
-    margin-top:200px;
+    margin-top:160px;
     margin-left:150px;
     width:auto;
     height:auto;
@@ -48,4 +48,111 @@ body{
     background-image: url(../pics/devices.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+#codefac_flexboxes{
+    background-color: white;
+    height:150px;
+}
+.codefac_flexbox{
+    display: flex;
+    justify-content:space-around;
+    
+
+}
+.codefac_flexbox>div{
+    padding-right: 50px;
+    padding-left:50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    /*padding:20px;*/
+    font-size:15px;
+    color:white;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    background-color: #325989;
+    border-radius: 20px;
+
+    
+}
+.codefac_textboxes{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+
+}
+.codefac_textboxes>div{
+    color: aliceblue;
+    font-size:15px;
+    margin-left:15px;
+
+}
+
+#textbox_a{
+    color:bisque;
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+.button {
+    background-color: #802421; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 15px;
+  }
+
+
+  #over img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #logo_bottom {
+    margin-left: 50%;
+    margin-right: auto;
+    display: block;
+  }
+  #logo_bottom>p{
+    color:white;
+    text-align:left;
+  }
+  .allrights{
+    color:white;
+    font-style: italic;
+    font-size: smaller;
+  }
+  #logo_header{
+    background-color:aqua;
+    margin-top:0px;
+    width:100px;
+  }
+  #search_bar{
+    background-color:antiquewhite;
+    width:900px;
+    height:50px;
+    margin-left:252px;
+    padding-left: 10px;
+  }
+
+
+
+.codefac_headerflex{
+    display: flex;
+    justify-content:space-between;  
+    color:white;
+    background-color: black;
+}
+.codefac_headerboxes{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    color:white;
+
 }
