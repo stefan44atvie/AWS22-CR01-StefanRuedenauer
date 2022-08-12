@@ -14,11 +14,11 @@ body{
 /* CSS-Styles für div-Boxen */
 #backmiddle{
     height:250px;
-    background-color: dimgray;
+    background-color: #1A1818;
     background-position: bottom;
     top:0%;
     margin: 0px;
-
+/*1A1818*/
 }
 #footerstyle{
     background-color: black;
@@ -39,4 +39,13 @@ body{
     width:auto;
     height:auto;
 }
-
+#codefac_logomiddle{
+    position:absolute;
+    margin-top:25px ;
+    margin-left: 150px;
+    width:200px;
+    height:200px;
+    background-image: url(../pics/devices.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
