@@ -30,3 +30,11 @@ p{
 #codefactory_box>p{
     padding-top:0px;
 }
+#backmiddle>p{
+    padding-top:0px;
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 4px #777;
+}
