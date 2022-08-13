@@ -25,11 +25,20 @@ p{
     color:white;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding-right: 10px;
 }
 /* Styling für den Bereich unter 'CodeFactory' */
 #codefac_underbox {
     color:white;
     font-weight: bold;
+}
+.under_title {
+    color:white;
+    font-weight: bold;
+    text-align: justify;
+    font-size: larger;
+    font-style: italic;
 }
 /* ExtraStyling für den Bereich unter 'CodeFactory' */
 #codefactory_box>p{

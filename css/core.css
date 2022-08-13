@@ -12,6 +12,11 @@ body{
     background-position:bottom; 
     background-image: url(../pics/keyboard.jpg);
 }
+#backimage2{
+    width:100%;
+    height:400px;
+    
+}
 
 .codefac_textboxes>div{
     margin-left:15px;
@@ -93,6 +98,7 @@ body{
     margin-left: 50%;
     margin-right: auto;
     display: block;
+    background-color: black;
   }
   #logo_bottom>p{
     color:white;
@@ -152,6 +158,9 @@ body{
     
 
 }
+
+
+
 .codefac_flexbox>div{
     padding-right: 50px;
     padding-left:50px;
