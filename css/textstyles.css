@@ -24,8 +24,7 @@ p{
 .frontend_text{
     color:white;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: justify;
+font-family: 'Times New Roman', Times, serif;
     padding-right: 10px;
 }
 /* Styling für den Bereich unter 'CodeFactory' */
