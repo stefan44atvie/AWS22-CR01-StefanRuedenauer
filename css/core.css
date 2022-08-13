@@ -39,6 +39,18 @@ body{
     font-size: 13px;
     border-radius: 15px;
   }
+  .button1 {
+    background-color: #325989; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 15px;
+  }
+
 
 /* CSS-Styles für div-Boxen */
 /* ======================== */
